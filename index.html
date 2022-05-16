@@ -33,26 +33,33 @@
 
     <!-- Import the component -->
 
-    <div>
-      <h1>BitBasil</h1>
-      <h3>Have a great <span id="currentDate"></span></h3>
-      <!-- <p id="currentDate">hey</p> -->
-      <script>
-        var today = new Date();
-        //   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-        var days = [
-          "Sunday",
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-        ];
-        var day = days[today.getDay().toString()];
-        document.getElementById("currentDate").innerHTML = day;
-      </script>
-      <form
+    <div class="navbar">
+      <a href="index.html"
+        ><img src="bitbasil_logo_color.png" width="21" height="21"
+      /></a>
+      <a
+        target="_blank"
+        href="https://apps.apple.com/us/developer/bitbasil-llc/id1253508295"
+        >Apps</a
+      >
+      <a href="mailto:dom@bitbasil.com">Support</a>
+      <a href="mailto:dom@bitbasil.com">Contact</a>
+      <a
+        target="_blank"
+        href="https://docs.google.com/document/d/1ExI_CSHGyqYk_V0NDO-SMvvBf5XW2fxO6M4klig8LVI/edit?usp=sharing"
+        >Jobs</a
+      >
+    </div>
+
+    <div class="main">
+      <h1>We make mobile apps.</h1>
+      <a
+        target="_blank"
+        href="https://apps.apple.com/us/developer/bitbasil-llc/id1253508295"
+        ><p>View apps</p></a
+      >
+      <img class="center" src="iphone_tilted.png" width="60%" />
+      <!-- <form
         target="_blank"
         action="https://apps.apple.com/us/app/downright-arrow-puzzle-game/id1577086402"
       >
@@ -81,10 +88,10 @@
         action="https://apps.apple.com/us/app/typevote/id1550468353"
       >
         <input name="submit" id="submit" type="submit" value="Typevote" />
-      </form>
+      </form> -->
     </div>
 
-    <div>
+    <!-- <div>
       <iframe
         width="300"
         height="300"
@@ -102,10 +109,15 @@
         Email me at <a href="mailto:dom@bitbasil.com">dom@bitbasil.com</a> so I
         can hire you!
       </p>
-    </div>
+    </div> -->
+
+    <footer>
+      <!-- <p><a href="mailto:dom@bitbasil.com">dom@bitbasil.com</a></p> -->
+      <p>&copy; 2022 BitBasil LLC</p>
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+    <!-- <script>
       (function (b, o, i, l, e, r) {
         b.GoogleAnalyticsObject = l;
         b[l] ||
@@ -120,6 +132,6 @@
       })(window, document, "script", "ga");
       ga("create", "UA-XXXXX-X", "auto");
       ga("send", "pageview");
-    </script>
+    </script> -->
   </body>
 </html>
