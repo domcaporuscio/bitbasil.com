@@ -227,11 +227,11 @@ a:hover {
 }
 
 h3 {
-  font-family: "Trebuchet MS", sans-serif;
+  /*font-family: "Trebuchet MS", sans-serif;*/
   color: black;
   font-size: 18px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   padding: 20px;
 }
 
