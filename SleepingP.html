@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleeping P - Gentle Sleep Sounds</title>
+    <style>
+      :root {
+        /* Define primary colors */
+        --soft-blue: #a3c4f3; /* Based on the background gradient */
+        --dark-text: #1f3a5f;
+        --call-to-action: #6cb844; /* A calming green for the button */
+        --button-hover: #5aa136;
+      }
+
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* Create a gentle gradient background */
+        background: linear-gradient(135deg, var(--soft-blue) 0%, #d8e0f0 100%);
+        color: var(--dark-text);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 900px;
+        padding: 40px 20px;
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.95
+        ); /* Slightly transparent white container */
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      }
+
+      /* --- Header Section --- */
+      .title-section {
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-size: 3.5em; /* Large, friendly title */
+        color: var(--dark-text);
+        margin-bottom: 5px;
+        letter-spacing: -1px;
+      }
+
+      h1 .panda-emoji {
+        font-size: 1.1em; /* Make the emoji slightly larger */
+      }
+
+      .subtitle {
+        font-size: 1.5em;
+        font-weight: 300;
+        color: #5d7590;
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+      }
+
+      /* --- Image Section (Red Panda) --- */
+      .image-container {
+        margin-bottom: 40px;
+      }
+
+      .panda-image {
+        width: 100%;
+        max-width: 500px;
+        /* The container sets the maximum size */
+        margin: 0 auto;
+        display: block;
+        /* Removed placeholder styles */
+        padding: 0;
+        border-radius: 15px;
+        background-color: transparent;
+        border: none;
+      }
+
+      /* FIX: Make the actual image responsive to the container size */
+      .panda-image img {
+        max-width: 100%;
+        height: auto; /* Maintains aspect ratio */
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px; /* Keeps the rounded corners on the image */
+      }
+
+      /* --- Download Button --- */
+      .download-button {
+        display: inline-block;
+        padding: 15px 40px;
+        background-color: var(--call-to-action);
+        color: white;
+        text-decoration: none;
+        font-size: 1.8em;
+        font-weight: bold;
+        border-radius: 50px;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        box-shadow: 0 4px 15px rgba(108, 184, 68, 0.4);
+      }
+
+      .download-button:hover {
+        background-color: var(--button-hover);
+        transform: translateY(-2px); /* Gentle lift effect */
+      }
+
+      /* --- Footer/Small Text --- */
+      .footer-text {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #5d7590;
+      }
+
+      /* Responsive Adjustments */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2.5em;
+        }
+        .subtitle {
+          font-size: 1.2em;
+        }
+        .download-button {
+          font-size: 1.5em;
+          padding: 12px 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="title-section">
+        <h1>Sleeping P</h1>
+        <p class="subtitle">
+          The playful path to peaceful sleep. No ads. Just dreams.
+        </p>
+      </header>
+
+      <div class="image-container">
+        <div class="panda-image">
+          <img
+            src="redpandas.png"
+            alt="red pandas sleeping to the sound of the Sleeping P app"
+          />
+        </div>
+      </div>
+
+      <a
+        href="YOUR_APP_STORE_LINK_HERE"
+        class="download-button"
+        target="_blank"
+      >
+        Download Now
+      </a>
+
+      <footer class="footer-text">
+        Everyone deserves to fall asleep peacefully, without distractions.
+      </footer>
+    </div>
+  </body>
+</html>
